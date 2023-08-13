@@ -1,0 +1,24 @@
+body{
+    background-color: #4d4a4a;
+}
+#navbar{
+    font-family: navbar navbar-expand-lg navbar-dark bg-dark;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.card{
+    /* width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000; */
+    flex-basis: auto;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
